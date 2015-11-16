@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7CBE4BA1BFA95A000816A55 /* AOEVehiclesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4B91BFA95A000816A55 /* AOEVehiclesListViewController.m */; };
+		C7CBE4BD1BFA95E800816A55 /* AOEExpensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4BC1BFA95E800816A55 /* AOEExpensesViewController.m */; };
+		C7CBE4C01BFA960500816A55 /* AOEGeneralReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4BF1BFA960500816A55 /* AOEGeneralReportViewController.m */; };
+		C7CBE4C31BFA961900816A55 /* AOESettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4C21BFA961900816A55 /* AOESettingsViewController.m */; };
+		C7CBE4C61BFA965B00816A55 /* AOEVehiclesEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4C51BFA965B00816A55 /* AOEVehiclesEditingViewController.m */; };
+		C7CBE4C91BFA967A00816A55 /* AOEReportPresentingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBE4C81BFA967A00816A55 /* AOEReportPresentingViewController.m */; };
 		C7E09BAE1BF6A893008F9E45 /* AOEArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E09BAD1BF6A893008F9E45 /* AOEArrayModel.m */; };
 		C7E09BB11BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E09BB01BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.m */; };
 		C7E09BB41BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E09BB31BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.m */; };
@@ -18,8 +24,6 @@
 		C7E15FE31BF25C46009E5FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E15FE01BF25C46009E5FD4 /* Assets.xcassets */; };
 		C7E15FE41BF25C46009E5FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E15FE11BF25C46009E5FD4 /* LaunchScreen.storyboard */; };
 		C7E15FE51BF25C46009E5FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E15FE21BF25C46009E5FD4 /* Main.storyboard */; };
-		C7E15FEE1BF25C64009E5FD4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FEB1BF25C64009E5FD4 /* FirstViewController.m */; };
-		C7E15FEF1BF25C64009E5FD4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FED1BF25C64009E5FD4 /* SecondViewController.m */; };
 		C7E15FF21BF25DBE009E5FD4 /* AOECarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FF11BF25DBE009E5FD4 /* AOECarModel.m */; };
 		C7E15FF51BF25DE2009E5FD4 /* AOEImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FF41BF25DE2009E5FD4 /* AOEImageModel.m */; };
 		C7E15FFE1BF261D1009E5FD4 /* AOObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FFA1BF261D1009E5FD4 /* AOObservable.m */; };
@@ -45,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7CBE4B81BFA95A000816A55 /* AOEVehiclesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEVehiclesListViewController.h; sourceTree = "<group>"; };
+		C7CBE4B91BFA95A000816A55 /* AOEVehiclesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEVehiclesListViewController.m; sourceTree = "<group>"; };
+		C7CBE4BB1BFA95E800816A55 /* AOEExpensesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEExpensesViewController.h; sourceTree = "<group>"; };
+		C7CBE4BC1BFA95E800816A55 /* AOEExpensesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEExpensesViewController.m; sourceTree = "<group>"; };
+		C7CBE4BE1BFA960500816A55 /* AOEGeneralReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEGeneralReportViewController.h; sourceTree = "<group>"; };
+		C7CBE4BF1BFA960500816A55 /* AOEGeneralReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEGeneralReportViewController.m; sourceTree = "<group>"; };
+		C7CBE4C11BFA961900816A55 /* AOESettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOESettingsViewController.h; sourceTree = "<group>"; };
+		C7CBE4C21BFA961900816A55 /* AOESettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOESettingsViewController.m; sourceTree = "<group>"; };
+		C7CBE4C41BFA965B00816A55 /* AOEVehiclesEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEVehiclesEditingViewController.h; sourceTree = "<group>"; };
+		C7CBE4C51BFA965B00816A55 /* AOEVehiclesEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEVehiclesEditingViewController.m; sourceTree = "<group>"; };
+		C7CBE4C71BFA967A00816A55 /* AOEReportPresentingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEReportPresentingViewController.h; sourceTree = "<group>"; };
+		C7CBE4C81BFA967A00816A55 /* AOEReportPresentingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEReportPresentingViewController.m; sourceTree = "<group>"; };
 		C7E09BA91BF4DFF0008F9E45 /* AOECarBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOECarBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E09BAA1BF4DFF0008F9E45 /* AOECarBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOECarBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E09BAB1BF4DFF0008F9E45 /* AOECarBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOECarBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,10 +81,6 @@
 		C7E15FE01BF25C46009E5FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E15FE11BF25C46009E5FD4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7E15FE21BF25C46009E5FD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C7E15FEA1BF25C64009E5FD4 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C7E15FEB1BF25C64009E5FD4 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C7E15FEC1BF25C64009E5FD4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C7E15FED1BF25C64009E5FD4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C7E15FF01BF25DBE009E5FD4 /* AOECarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOECarModel.h; sourceTree = "<group>"; };
 		C7E15FF11BF25DBE009E5FD4 /* AOECarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOECarModel.m; sourceTree = "<group>"; };
 		C7E15FF31BF25DE2009E5FD4 /* AOEImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEImageModel.h; sourceTree = "<group>"; };
@@ -195,10 +207,18 @@
 		C7E15FE91BF25C64009E5FD4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				C7E15FEA1BF25C64009E5FD4 /* FirstViewController.h */,
-				C7E15FEB1BF25C64009E5FD4 /* FirstViewController.m */,
-				C7E15FEC1BF25C64009E5FD4 /* SecondViewController.h */,
-				C7E15FED1BF25C64009E5FD4 /* SecondViewController.m */,
+				C7CBE4B81BFA95A000816A55 /* AOEVehiclesListViewController.h */,
+				C7CBE4B91BFA95A000816A55 /* AOEVehiclesListViewController.m */,
+				C7CBE4BB1BFA95E800816A55 /* AOEExpensesViewController.h */,
+				C7CBE4BC1BFA95E800816A55 /* AOEExpensesViewController.m */,
+				C7CBE4BE1BFA960500816A55 /* AOEGeneralReportViewController.h */,
+				C7CBE4BF1BFA960500816A55 /* AOEGeneralReportViewController.m */,
+				C7CBE4C11BFA961900816A55 /* AOESettingsViewController.h */,
+				C7CBE4C21BFA961900816A55 /* AOESettingsViewController.m */,
+				C7CBE4C41BFA965B00816A55 /* AOEVehiclesEditingViewController.h */,
+				C7CBE4C51BFA965B00816A55 /* AOEVehiclesEditingViewController.m */,
+				C7CBE4C71BFA967A00816A55 /* AOEReportPresentingViewController.h */,
+				C7CBE4C81BFA967A00816A55 /* AOEReportPresentingViewController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -383,17 +403,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7E09BB41BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.m in Sources */,
+				C7CBE4BA1BFA95A000816A55 /* AOEVehiclesListViewController.m in Sources */,
 				C7E15FFE1BF261D1009E5FD4 /* AOObservable.m in Sources */,
-				C7E15FEF1BF25C64009E5FD4 /* SecondViewController.m in Sources */,
 				C7E15FDE1BF25C3A009E5FD4 /* main.m in Sources */,
-				C7E15FEE1BF25C64009E5FD4 /* FirstViewController.m in Sources */,
 				C7E15FF51BF25DE2009E5FD4 /* AOEImageModel.m in Sources */,
+				C7CBE4C91BFA967A00816A55 /* AOEReportPresentingViewController.m in Sources */,
 				C7E09BAE1BF6A893008F9E45 /* AOEArrayModel.m in Sources */,
 				C7E15FFF1BF261D1009E5FD4 /* AOETableViewCell.m in Sources */,
 				C7E09BB11BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.m in Sources */,
 				C7E15FDC1BF25C3A009E5FD4 /* AOEAppDelegate.m in Sources */,
+				C7CBE4C31BFA961900816A55 /* AOESettingsViewController.m in Sources */,
+				C7CBE4BD1BFA95E800816A55 /* AOEExpensesViewController.m in Sources */,
 				C7E160031BF2625F009E5FD4 /* AOEExpenseRecord.m in Sources */,
+				C7CBE4C01BFA960500816A55 /* AOEGeneralReportViewController.m in Sources */,
 				C7E15FF21BF25DBE009E5FD4 /* AOECarModel.m in Sources */,
+				C7CBE4C61BFA965B00816A55 /* AOEVehiclesEditingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
