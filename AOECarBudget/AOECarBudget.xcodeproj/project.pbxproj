@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7E09BAE1BF6A893008F9E45 /* AOEArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E09BAD1BF6A893008F9E45 /* AOEArrayModel.m */; };
+		C7E09BB11BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E09BB01BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.m */; };
+		C7E09BB41BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E09BB31BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.m */; };
 		C7E15FBF1BF25611009E5FD4 /* AOECarBudgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FBE1BF25611009E5FD4 /* AOECarBudgetTests.m */; };
 		C7E15FCA1BF25611009E5FD4 /* AOECarBudgetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FC91BF25611009E5FD4 /* AOECarBudgetUITests.m */; };
-		C7E15FDC1BF25C3A009E5FD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FD91BF25C3A009E5FD4 /* AppDelegate.m */; };
+		C7E15FDC1BF25C3A009E5FD4 /* AOEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FD91BF25C3A009E5FD4 /* AOEAppDelegate.m */; };
 		C7E15FDD1BF25C3A009E5FD4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7E15FDA1BF25C3A009E5FD4 /* Info.plist */; };
 		C7E15FDE1BF25C3A009E5FD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FDB1BF25C3A009E5FD4 /* main.m */; };
 		C7E15FE31BF25C46009E5FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E15FE01BF25C46009E5FD4 /* Assets.xcassets */; };
@@ -17,6 +20,11 @@
 		C7E15FE51BF25C46009E5FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E15FE21BF25C46009E5FD4 /* Main.storyboard */; };
 		C7E15FEE1BF25C64009E5FD4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FEB1BF25C64009E5FD4 /* FirstViewController.m */; };
 		C7E15FEF1BF25C64009E5FD4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FED1BF25C64009E5FD4 /* SecondViewController.m */; };
+		C7E15FF21BF25DBE009E5FD4 /* AOECarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FF11BF25DBE009E5FD4 /* AOECarModel.m */; };
+		C7E15FF51BF25DE2009E5FD4 /* AOEImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FF41BF25DE2009E5FD4 /* AOEImageModel.m */; };
+		C7E15FFE1BF261D1009E5FD4 /* AOObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FFA1BF261D1009E5FD4 /* AOObservable.m */; };
+		C7E15FFF1BF261D1009E5FD4 /* AOETableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E15FFD1BF261D1009E5FD4 /* AOETableViewCell.m */; };
+		C7E160031BF2625F009E5FD4 /* AOEExpenseRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E160021BF2625F009E5FD4 /* AOEExpenseRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7E15F9E1BF25610009E5FD4 /* AOECarBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = AOECarBudget.app; path = "/Users/alina/AOECarBudget/AOECarBudget/build/Debug-iphoneos/AOECarBudget.app"; sourceTree = "<absolute>"; };
-		C7E15FBA1BF25611009E5FD4 /* AOECarBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AOECarBudgetTests.xctest; path = "/Users/alina/AOECarBudget/AOECarBudget/build/Debug-iphoneos/AOECarBudgetTests.xctest"; sourceTree = "<absolute>"; };
+		C7E09BA91BF4DFF0008F9E45 /* AOECarBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOECarBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E09BAA1BF4DFF0008F9E45 /* AOECarBudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOECarBudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E09BAB1BF4DFF0008F9E45 /* AOECarBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOECarBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E09BAC1BF6A893008F9E45 /* AOEArrayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEArrayModel.h; sourceTree = "<group>"; };
+		C7E09BAD1BF6A893008F9E45 /* AOEArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEArrayModel.m; sourceTree = "<group>"; };
+		C7E09BAF1BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AOEExtensions.h"; sourceTree = "<group>"; };
+		C7E09BB01BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AOEExtensions.m"; sourceTree = "<group>"; };
+		C7E09BB21BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+AOEExtensions.h"; sourceTree = "<group>"; };
+		C7E09BB31BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+AOEExtensions.m"; sourceTree = "<group>"; };
 		C7E15FBE1BF25611009E5FD4 /* AOECarBudgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOECarBudgetTests.m; sourceTree = "<group>"; };
 		C7E15FC01BF25611009E5FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7E15FC51BF25611009E5FD4 /* AOECarBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AOECarBudgetUITests.xctest; path = "/Users/alina/AOECarBudget/AOECarBudget/build/Debug-iphoneos/AOECarBudgetUITests.xctest"; sourceTree = "<absolute>"; };
 		C7E15FC91BF25611009E5FD4 /* AOECarBudgetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOECarBudgetUITests.m; sourceTree = "<group>"; };
 		C7E15FCB1BF25611009E5FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7E15FD81BF25C3A009E5FD4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C7E15FD91BF25C3A009E5FD4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7E15FD81BF25C3A009E5FD4 /* AOEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEAppDelegate.h; sourceTree = "<group>"; };
+		C7E15FD91BF25C3A009E5FD4 /* AOEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEAppDelegate.m; sourceTree = "<group>"; };
 		C7E15FDA1BF25C3A009E5FD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7E15FDB1BF25C3A009E5FD4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7E15FE01BF25C46009E5FD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +69,16 @@
 		C7E15FEB1BF25C64009E5FD4 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		C7E15FEC1BF25C64009E5FD4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		C7E15FED1BF25C64009E5FD4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C7E15FF01BF25DBE009E5FD4 /* AOECarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOECarModel.h; sourceTree = "<group>"; };
+		C7E15FF11BF25DBE009E5FD4 /* AOECarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOECarModel.m; sourceTree = "<group>"; };
+		C7E15FF31BF25DE2009E5FD4 /* AOEImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEImageModel.h; sourceTree = "<group>"; };
+		C7E15FF41BF25DE2009E5FD4 /* AOEImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEImageModel.m; sourceTree = "<group>"; };
+		C7E15FF91BF261D1009E5FD4 /* AOObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOObservable.h; sourceTree = "<group>"; };
+		C7E15FFA1BF261D1009E5FD4 /* AOObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOObservable.m; sourceTree = "<group>"; };
+		C7E15FFC1BF261D1009E5FD4 /* AOETableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOETableViewCell.h; sourceTree = "<group>"; };
+		C7E15FFD1BF261D1009E5FD4 /* AOETableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOETableViewCell.m; sourceTree = "<group>"; };
+		C7E160011BF2625F009E5FD4 /* AOEExpenseRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOEExpenseRecord.h; sourceTree = "<group>"; };
+		C7E160021BF2625F009E5FD4 /* AOEExpenseRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOEExpenseRecord.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +113,9 @@
 				C7E15FDF1BF25C46009E5FD4 /* Resources */,
 				C7E15FE61BF25C64009E5FD4 /* Sources */,
 				C7E15FBD1BF25611009E5FD4 /* AOECarBudgetTests */,
+				C7E09BA91BF4DFF0008F9E45 /* AOECarBudget.app */,
+				C7E09BAA1BF4DFF0008F9E45 /* AOECarBudgetTests.xctest */,
+				C7E09BAB1BF4DFF0008F9E45 /* AOECarBudgetUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,8 +142,8 @@
 		C7E15FD71BF25C3A009E5FD4 /* AOECarBudget */ = {
 			isa = PBXGroup;
 			children = (
-				C7E15FD81BF25C3A009E5FD4 /* AppDelegate.h */,
-				C7E15FD91BF25C3A009E5FD4 /* AppDelegate.m */,
+				C7E15FD81BF25C3A009E5FD4 /* AOEAppDelegate.h */,
+				C7E15FD91BF25C3A009E5FD4 /* AOEAppDelegate.m */,
 				C7E15FDA1BF25C3A009E5FD4 /* Info.plist */,
 				C7E15FDB1BF25C3A009E5FD4 /* main.m */,
 			);
@@ -146,6 +173,8 @@
 		C7E15FE71BF25C64009E5FD4 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				C7E160001BF261FA009E5FD4 /* Categories */,
+				C7E15FF61BF261D1009E5FD4 /* Classes */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -153,6 +182,12 @@
 		C7E15FE81BF25C64009E5FD4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C7E15FF01BF25DBE009E5FD4 /* AOECarModel.h */,
+				C7E15FF11BF25DBE009E5FD4 /* AOECarModel.m */,
+				C7E15FF31BF25DE2009E5FD4 /* AOEImageModel.h */,
+				C7E15FF41BF25DE2009E5FD4 /* AOEImageModel.m */,
+				C7E09BAC1BF6A893008F9E45 /* AOEArrayModel.h */,
+				C7E09BAD1BF6A893008F9E45 /* AOEArrayModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,6 +201,54 @@
 				C7E15FED1BF25C64009E5FD4 /* SecondViewController.m */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		C7E15FF61BF261D1009E5FD4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C7E15FF71BF261D1009E5FD4 /* AOEExpenseRecord */,
+				C7E15FF81BF261D1009E5FD4 /* AOEObservable */,
+				C7E15FFB1BF261D1009E5FD4 /* AOETableViewCell */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C7E15FF71BF261D1009E5FD4 /* AOEExpenseRecord */ = {
+			isa = PBXGroup;
+			children = (
+				C7E160011BF2625F009E5FD4 /* AOEExpenseRecord.h */,
+				C7E160021BF2625F009E5FD4 /* AOEExpenseRecord.m */,
+			);
+			path = AOEExpenseRecord;
+			sourceTree = "<group>";
+		};
+		C7E15FF81BF261D1009E5FD4 /* AOEObservable */ = {
+			isa = PBXGroup;
+			children = (
+				C7E15FF91BF261D1009E5FD4 /* AOObservable.h */,
+				C7E15FFA1BF261D1009E5FD4 /* AOObservable.m */,
+			);
+			path = AOEObservable;
+			sourceTree = "<group>";
+		};
+		C7E15FFB1BF261D1009E5FD4 /* AOETableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C7E15FFC1BF261D1009E5FD4 /* AOETableViewCell.h */,
+				C7E15FFD1BF261D1009E5FD4 /* AOETableViewCell.m */,
+			);
+			path = AOETableViewCell;
+			sourceTree = "<group>";
+		};
+		C7E160001BF261FA009E5FD4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C7E09BAF1BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.h */,
+				C7E09BB01BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.m */,
+				C7E09BB21BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.h */,
+				C7E09BB31BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +268,7 @@
 			);
 			name = AOECarBudget;
 			productName = AOECarBudget;
-			productReference = C7E15F9E1BF25610009E5FD4 /* AOECarBudget.app */;
+			productReference = C7E09BA91BF4DFF0008F9E45 /* AOECarBudget.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C7E15FB91BF25611009E5FD4 /* AOECarBudgetTests */ = {
@@ -203,7 +286,7 @@
 			);
 			name = AOECarBudgetTests;
 			productName = AOECarBudgetTests;
-			productReference = C7E15FBA1BF25611009E5FD4 /* AOECarBudgetTests.xctest */;
+			productReference = C7E09BAA1BF4DFF0008F9E45 /* AOECarBudgetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C7E15FC41BF25611009E5FD4 /* AOECarBudgetUITests */ = {
@@ -221,7 +304,7 @@
 			);
 			name = AOECarBudgetUITests;
 			productName = AOECarBudgetUITests;
-			productReference = C7E15FC51BF25611009E5FD4 /* AOECarBudgetUITests.xctest */;
+			productReference = C7E09BAB1BF4DFF0008F9E45 /* AOECarBudgetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -299,10 +382,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E09BB41BF6BA2D008F9E45 /* NSFileManager+AOEExtensions.m in Sources */,
+				C7E15FFE1BF261D1009E5FD4 /* AOObservable.m in Sources */,
 				C7E15FEF1BF25C64009E5FD4 /* SecondViewController.m in Sources */,
 				C7E15FDE1BF25C3A009E5FD4 /* main.m in Sources */,
 				C7E15FEE1BF25C64009E5FD4 /* FirstViewController.m in Sources */,
-				C7E15FDC1BF25C3A009E5FD4 /* AppDelegate.m in Sources */,
+				C7E15FF51BF25DE2009E5FD4 /* AOEImageModel.m in Sources */,
+				C7E09BAE1BF6A893008F9E45 /* AOEArrayModel.m in Sources */,
+				C7E15FFF1BF261D1009E5FD4 /* AOETableViewCell.m in Sources */,
+				C7E09BB11BF6A9B4008F9E45 /* NSMutableArray+AOEExtensions.m in Sources */,
+				C7E15FDC1BF25C3A009E5FD4 /* AOEAppDelegate.m in Sources */,
+				C7E160031BF2625F009E5FD4 /* AOEExpenseRecord.m in Sources */,
+				C7E15FF21BF25DBE009E5FD4 /* AOECarModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				INFOPLIST_FILE = AOECarBudget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AOE.AOECarBudget;
@@ -433,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				INFOPLIST_FILE = AOECarBudget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AOE.AOECarBudget;
@@ -444,6 +537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				INFOPLIST_FILE = AOECarBudgetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AOE.AOECarBudgetTests;
@@ -456,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				INFOPLIST_FILE = AOECarBudgetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AOE.AOECarBudgetTests;
@@ -467,6 +562,7 @@
 		C7E15FD51BF25611009E5FD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				INFOPLIST_FILE = AOECarBudgetUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AOE.AOECarBudgetUITests;
@@ -479,6 +575,7 @@
 		C7E15FD61BF25611009E5FD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				INFOPLIST_FILE = AOECarBudgetUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AOE.AOECarBudgetUITests;
@@ -507,6 +604,7 @@
 				C7E15FD01BF25611009E5FD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7E15FD11BF25611009E5FD4 /* Build configuration list for PBXNativeTarget "AOECarBudgetTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +613,7 @@
 				C7E15FD31BF25611009E5FD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7E15FD41BF25611009E5FD4 /* Build configuration list for PBXNativeTarget "AOECarBudgetUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +622,7 @@
 				C7E15FD61BF25611009E5FD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
